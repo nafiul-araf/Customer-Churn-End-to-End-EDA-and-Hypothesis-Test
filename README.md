@@ -103,7 +103,7 @@ df.columns
            'PaymentMethod', 'MonthlyCharges', 'TotalCharges', 'Churn'],
           dtype='object')
 
-
+--- 
 
 # **Exploratory Data Analysis (EDA)**
 
@@ -1729,6 +1729,9 @@ This bar chart illustrates the relationship between customer tenure and churn ra
 
 **Overall Insights** The chart highlights a clear pattern of decreasing churn rate as customers spend more time with the service, churn rate decreases as tenure increases.
 
+
+--- 
+
 # **Hypothesis Test**
 
 ## **Normality Test**
@@ -2676,7 +2679,4 @@ else:
       ➡ There is *no* significant difference in churn across the Genders (p ≥ 0.05).
     
 
-
-```python
-
-```
+--- 
